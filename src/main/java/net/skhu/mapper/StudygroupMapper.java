@@ -48,8 +48,8 @@ public interface StudygroupMapper {
     LocalDateTime[] findUpdateDate();
 
     @Select("SELECT studyGroup_id, title, content, writer, totalNum, startDate, endDate, updateDate" +
-            " FROM studygroup WHERE UpdateDate = #{UpdateDate}")
-    ResponseStudygroup findUpdateDateInfo(LocalDateTime UpdateDate);
+            " FROM studygroup ORDER BY updateDate asc")
+    List<ResponseStudygroup> findUpdateDateInfo();
 
     @Select("SELECT studyGroup_id, title, content, writer, totalNum, startDate, endDate, updateDate" +
             " FROM studygroup ORDER BY startDate asc")

@@ -24,7 +24,7 @@ public class ResponseStudygroup implements Serializable {
     Double y_map;
     int totalNum;
     int currentNum;
-    private LocalDateTime updateDate;
+    LocalDateTime updateDate;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     LocalDate startDate;
