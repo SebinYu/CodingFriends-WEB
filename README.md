@@ -11,7 +11,7 @@
 </div>
 <br><br>
 
-- 해당 프로젝트를 [**기능추가, 리팩토링한 REST API 서버**]가 제작되었습니다.
+- 해당 프로젝트를 **기능추가, 리팩토링**하여 발전시킨 [** REST API 서버**]가 제작되었습니다.
   - [**REST API 서버**] 스터디 모임 API 서버: https://github.com/SebinYu/CodingFriends-REST-API
 
 # 📖 개요
