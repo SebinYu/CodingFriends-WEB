@@ -4,9 +4,6 @@
 
 
 <div align=center>
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&customColorList=3&height=200&width=100%&section=header&text=Coding%20Friends!&fontSize=90" />
-</div>
-<div align=center>
 	<h3>📚 " 개발자 스터디 모임 플랫폼" 📚</h3>
 </div>
 <br><br>
