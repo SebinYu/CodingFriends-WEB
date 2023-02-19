@@ -23,7 +23,9 @@
 - 스터디 모집 및 진행 → 진행 종료 후: 스터디원 참여 점수 공개(별점 및 리뷰글) API를 제공합니다.
 <br><br><br>
 
-
+# 📖 인프라 구조도
+![infra.png](img/infra.png)
+<br><br><br>
 
 # 📖 기술스택
 - Back-end : Java11, Spring Boot 2.7.8, Maven
