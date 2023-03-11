@@ -102,7 +102,11 @@ public class UserController {
             for (int i = 0; i < reivews.size(); i++) {
                 TotalR = TotalR + reivews.get(i);
             }
-            AvgR = TotalR/ reivews.size();
+            if(TotalR == 0){
+                AvgR = 0;
+            }else{
+                AvgR = TotalR/ reivews.size();
+            }
             model.addAttribute("reivewAvg", AvgR);
         }
 
@@ -116,7 +120,11 @@ public class UserController {
             for (int i = 2; i < lectureScores.size(); i++) {
                 TotalL = TotalL + lectureScores.get(i);
             }
-            AvgL = TotalL/ (lectureScores.size()-2);
+            if(TotalL == 0){
+                AvgL = 0;
+            }else{
+                AvgL = TotalL/ (lectureScores.size()-2);
+            }
             model.addAttribute("lectureScoreAvg", AvgL);
         }
 
