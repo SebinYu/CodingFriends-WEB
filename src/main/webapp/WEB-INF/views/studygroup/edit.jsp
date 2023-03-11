@@ -48,12 +48,12 @@
                 <td><textarea type="text" name="content" class="form-control"
                               value="${ studygroup.content }" required></textarea></td>
             </tr>
-<%--            <tr>--%>
-<%--                <td>조직장</td>--%>
-<%--                <td><textarea type="text" name="writer" class="form-control" style="height: 20px"--%>
-<%--                              value="${ studygroup.writer }" readonly/><sec:authentication property="name"/></textarea>--%>
-<%--                </td>--%>
-<%--            </tr>--%>
+            <tr>
+                <td>조직장</td>
+                <td><textarea type="text" name="writer" class="form-control" style="height: 20px"
+                              value="${ studygroup.writer }" readonly/><sec:authentication property="name"/></textarea>
+                </td>
+            </tr>
             <tr>
                 <td>최대 모집인원</td>
                 <td><input type="number" name="totalNum" min="1" class="form-control"

@@ -83,12 +83,12 @@
 	background-size: cover;">
   <br><br><br><br><br><br><br><br><br><br><br>
   <sec:authorize access="not authenticated">
-    <a href="/login" class="btn btn-info" style="margin-top: 115px; color: white;" >
+    <a href="/login" class="btn btn-info" style="margin-top: 110px; margin-left: 680px; color: white;" >
       <스터디 만들기><br>로그인 하러가기
     </a>
   </sec:authorize>
   <sec:authorize access="authenticated">
-    <a href="create" class="btn btn-info" style="margin-top: 115px; color: white;">스터디 만들기</a>
+    <a href="create" class="btn btn-info" style="margin-top: 110px; margin-left: 680px; color: white;">스터디 만들기</a>
   </sec:authorize>
 </div>
 
@@ -108,9 +108,8 @@
     <input type="text" name="keyword" class="form-control mx-1 mt-2" style="width: 200px;" placeholder="내용을 입력하세요"/>
     <button type="submit" class="btn btn-primary btn-default mx-1 mt-2">검색</button>
   </form>
-  <a href="/studygroup/map/index" class="btn" style="float: left; background: #0523f6; color: white; margin-top: 12px; font-weight: bold;  margin-right: 7px">지역별 오프라인 스터디</a>
-  <a href="/studygroup/sequence/startDate" class="btn btn-secondary" style="float: left; margin-top: 12px; margin-right: 7px">스터디 시작일 최신순</a>
-  <a href="/studygroup/sequence/updateDate" class="btn btn-secondary" style="float: left; margin-top: 12px">작성일 최신순</a>
+  <a href="/studygroup/sequence/startDate" class="btn btn-secondary" style="float: left; background: #0523f6; color: white; margin-top: 12px; font-weight: bold;  margin-right: 7px">스터디 시작일 최신순</a>
+  <a href="/studygroup/sequence/updateDate" class="btn btn-secondary" style="float: left; background: #0523f6; color: white; margin-top: 12px; font-weight: bold;  margin-right: 7px">작성일 최신순</a>
   <div style="clear: both"></div>
 </div>
 <hr>

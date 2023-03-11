@@ -160,19 +160,10 @@ public class StudygroupController {
 
 
     @GetMapping("detail")
-    public String detailGet(Model model, Principal principal,
+    public String detailGet(Model model,Principal principal,
                          @RequestParam("studyGroup_id") BigInteger studyGroup_id) {
 
-//        String sessionName = principal.getName();
-//        String writer = studygroupMapper.findWriter(studyGroup_id);
-//        String ID = studygroupMapper.findID(writer);
-//
-//        Integer error = 0;
-//
-//        if(sessionName == ID){
-//            error = 1;
-//            model.addAttribute("error", error);
-//        }
+
 
         Integer[] Applyer = studygroupMapper.findApplyer(studyGroup_id);
         Integer error = 0;
@@ -180,6 +171,8 @@ public class StudygroupController {
             error = 1;
             model.addAttribute("error", error);
         }
+
+
 
 
         List<ResponseStudygroup> studygroups = studygroupMapper.findAll();

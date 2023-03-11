@@ -37,6 +37,7 @@
       <div>${ studygroup.updateDate }</div>
       <div>
           <div style="float:right;">
+
               <a href="edit?studyGroup_id=${ studygroup.studyGroup_id }" style="text-decoration: none; margin-right: 5px">수정</a>
               <c:if test="${ error == 1 }">
                   <a href="#" style="text-decoration: none;"></a><br>
